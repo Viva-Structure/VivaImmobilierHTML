@@ -32,6 +32,70 @@ body {
   background: #000;
   color: #fff; }
 
+  .service{
+    padding: 5px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+
+.service .title{
+    font-size: 25px;
+    color: #000;
+    font-family: Cairo-Black;
+    border-bottom:solid  #2cb78d ;
+}
+
+.logo-flex{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.services-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.service-item{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #2ebf94;
+    text-align: center;
+}
+
+.viva-logo{
+  width: 40px;
+}
+
+.service i{
+    font-size: 50px;
+    color: #2E7BFD;
+}
+
+.service-item h2{
+    font-size: 20px;
+    font-family: Cairo-Regular;
+}
+
+.service-item p{
+    /* font-size: 16px; */
+    font-family: Cairo-Regular;
+}
+
+
+.d-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
